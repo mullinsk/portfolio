@@ -1,5 +1,4 @@
-$(document).ready(function(){
-	console.log('hi');
+$(window).load(function(){
 
 	if(location.hash == ''){$('#content').load('inc/about.html');}
 	else{$('#content').load( 'inc/'+location.hash.replace('#','')+'.html')}
@@ -10,5 +9,7 @@ $(document).ready(function(){
 		$('#content').load( 'inc/'+location.hash.replace('#','')+'.html');
 	}
 	window.onhashchange = updateNav;
+
+    
 
 });
