@@ -58,6 +58,12 @@ h3{
 	float: left
 }
 
+img.photo{
+	width:150px;
+	float: left;
+	display: inline-block;
+	padding-right: 10px
+}
 .nav ul{
 	list-style: none;
 	padding: 0;
