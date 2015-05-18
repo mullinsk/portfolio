@@ -1,0 +1,110 @@
+body{
+	font-family: 'Helvetica', sans-serif;
+	font-weight:100;
+}
+h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+	text-align: center;
+}
+h3{
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+}
+.nav{
+	width:650px;
+	height: 90px;
+	margin: auto;
+	display: block;
+	overflow: visible;
+}
+
+#logo{
+	width:80px;
+	height: 70px;
+	background: #000;
+	border: 5px double #fff;
+	color: #fff;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+	padding-top:10px;
+	float: left;
+}
+
+
+.initial{
+	width: 40px;
+	height: 35px;
+	background: #000;
+	border: 5px double #fff;
+	color: #fff;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	padding-top: 5px;
+	float: left;
+}
+
+.contact{
+	width: 371px;
+	margin:50px auto;
+}
+.contact a{
+	margin: 10px;
+	display: inline;
+	float: left
+}
+
+.nav ul{
+	list-style: none;
+	padding: 0;
+	float: left;
+	margin:35px;
+}
+
+.nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin:0 25px;
+}
+
+span{
+	display: inline-block;
+	margin: 15px 2px;
+	float: left;
+}
+
+a{
+	color: #000;
+	text-decoration: none;
+}
+a:hover, a:hover .initial{
+	color:#8C6184;
+	cursor: pointer;
+}
+
+#content{
+	display: block;
+	width: 650px;
+	margin: auto;
+}
+
+
+/*CLEARFIX*/
+
+.cf:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.cf { display: inline-block; }
+/* start commented backslash hack \*/
+* html .cf { height: 1%; }
+.cf { display: block; }
+/* close commented backslash hack */
