@@ -12,6 +12,45 @@ h3{
 	font-size: 30px;
 	font-weight: normal;
 }
+h4{
+	text-align: center;
+	color: #8C6184;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	border-bottom: 2px solid #000;
+	padding-bottom: 3px
+}
+h4.res{
+	border: none;
+}
+h3 a{
+	color: #8C6184;
+	padding-bottom: 2px;
+}
+p span{
+	display: inline;
+	float:right;
+	margin:0;
+}
+.center{
+	text-align: center;
+}
+b{
+	font-weight: 400;
+}
+li{
+	list-style: none;
+	margin:5px 0;
+	position: relative;
+}
+li:before{
+	content:"-";
+	font-weight: bold;
+	color: #8C6184;
+	position: absolute;
+	left:-15px;
+
+}
 .nav{
 	width:650px;
 	height: 90px;
@@ -55,7 +94,8 @@ h3{
 .contact a{
 	margin: 10px;
 	display: inline;
-	float: left
+	float: left;
+	border: none;
 }
 
 img.photo{
@@ -76,7 +116,12 @@ img.photo{
 	display: inline-block;
 	margin:0 25px;
 }
-
+.nav ul li:before{
+	content:"";
+}
+.nav ul li a{
+	border-bottom: none;
+}
 span{
 	display: inline-block;
 	margin: 15px 2px;
@@ -86,6 +131,7 @@ span{
 a{
 	color: #000;
 	text-decoration: none;
+	border-bottom: 2px solid #8C6184;
 }
 a:hover, a:hover .initial{
 	color:#8C6184;
