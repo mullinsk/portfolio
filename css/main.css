@@ -156,7 +156,30 @@ a:hover, a:hover .initial{
 	height: 0;
 }
 .cf { display: inline-block; }
-/* start commented backslash hack \*/
+
 * html .cf { height: 1%; }
 .cf { display: block; }
-/* close commented backslash hack */
+
+
+@media screen and (max-width:650px){
+	#content{
+		width: 90%;
+	}
+	.nav{
+		width: 90%;
+	}
+	.nav #logo{
+		float: left;
+	}
+	.nav ul{
+		width: 70%;
+		margin: 0;
+		float: right;
+	}
+
+	.nav ul li{
+		display: block;
+		text-align: right;
+		margin: 0 0 7px 0;
+	}
+}
